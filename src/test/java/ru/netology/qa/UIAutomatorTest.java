@@ -21,6 +21,7 @@ public class UIAutomatorTest {
         desiredCapabilities.setCapability("appium:deviceName", "Some name");
         desiredCapabilities.setCapability("appium:appPackage", "ru.netology.testing.uiautomator");
         desiredCapabilities.setCapability("appium:appActivity", "ru.netology.testing.uiautomator.MainActivity");
+        desiredCapabilities.setCapability("appium:automationName", "uiautomator2");
         desiredCapabilities.setCapability("appium:ensureWebviewsHavePages", true);
         desiredCapabilities.setCapability("appium:nativeWebScreenshot", true);
         desiredCapabilities.setCapability("appium:newCommandTimeout", 3600);
