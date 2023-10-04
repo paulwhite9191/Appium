@@ -32,7 +32,7 @@ public class UIAutomatorTest {
     }
 
     @Test
-    public void textBeforeAndAfterTest() {
+    public void emptyStringTest() {
         MainScreen button = new MainScreen(driver);
 
         String textBefore = button.textToBeChanged.getText();
